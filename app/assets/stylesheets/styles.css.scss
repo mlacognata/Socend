@@ -1,0 +1,29 @@
+$navbarBackgroundHighlight: black;
+$navbarBackground: black;
+$btnPrimaryBackground: green;
+
+@import 'bootstrap';
+
+	body{
+	    padding-top: 60px;
+	    color: $white;
+	    font-family: cursive;
+	    	   	    	}
+
+@import 'bootstrap-responsive';
+	.navbar-inner{
+	    @include box-shadow(none !important);
+	    border: 0;
+	   	}
+
+	.footer{
+	    margin-top: 50px;
+	    color: $grayLight;
+	    a{
+	        color: $gray;
+	    }
+	}
+
+	.hero-unit {
+        background-image: url('http://farm4.staticflickr.com/3585/3577098794_813a3d271e_o.jpg');    
+}
